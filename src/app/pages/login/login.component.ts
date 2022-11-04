@@ -1,5 +1,7 @@
 import { Component, VERSION } from '@angular/core';
 import { Router } from '@angular/router';
+// import logo from './assets/img/logo_agendate.png';
+import { logo } from '../assets/img/logo_agendate.png';
 
 @Component({
   selector: 'my-login',
@@ -8,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
   name = 'Angular ' + VERSION.major;
+  logo = logo;
 
   constructor(private route: Router) {}
 
