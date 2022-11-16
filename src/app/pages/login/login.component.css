@@ -41,6 +41,7 @@ body {
 .box-form .left .overlay {
   padding: 30px;
   width: 100%;
+  max-width: fit-content;
   height: 100%;
   background: #5961f9ad;
   overflow: hidden;
@@ -122,6 +123,11 @@ body {
   background-image: linear-gradient(135deg, #70f570 10%, #49c628 100%);
 }
 
+.right {
+  text-align: center;
+  margin-right: 30px;
+}
+
 label {
   display: block;
   position: relative;
@@ -162,4 +168,15 @@ label span.text-checkbox {
 
 label input[type='checkbox'] {
   display: none;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.btn__login {
+  cursor: pointer;
 }
